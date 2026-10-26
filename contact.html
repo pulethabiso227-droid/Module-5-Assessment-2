@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Contact us – Auto4Sale</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap">
+<a class="plate" href="index.html" aria-label="Auto4Sale home">AUTO4SALE</a>
+<nav aria-label="Main"><a href="index.html">Home</a><a href="vehicles.html">Vehicles</a><a href="contact.html" aria-current="page">Contact us</a></nav>
+</div></header>
+<main>
+<div class="sec"><div class="wrap">
+<h2>Contact us</h2>
+<p class="sub">Ask about a vehicle, book a test drive or tell us what you’re looking for.</p>
+<div class="cgrid">
+<ul class="details">
+<li><b>Showroom</b>12 Dealer Road, Motor Park</li>
+<li><b>Phone</b><a href="tel:+27110000000">011 000 0000</a></li>
+<li><b>Email</b><a href="mailto:sales@auto4sale.example">sales@auto4sale.example</a></li>
+<li><b>Opening hours</b>Mon–Fri 08:00–17:30<br>Sat 09:00–14:00<br>Sun closed</li>
+</ul>
+<div id="formBox">
+<form id="cf" novalidate>
+<label>Full name<input id="n" required autocomplete="name"></label>
+<label>Email<input id="e" type="email" required autocomplete="email"></label>
+<label>Phone (optional)<input id="p" type="tel" autocomplete="tel"></label>
+<label>Vehicle you’re interested in<select id="v"><option>Not sure yet</option></select></label>
+<label>Message<textarea id="m" rows="4" required></textarea></label>
+<div id="err" role="alert" style="color:#b3261e;font-weight:600"></div>
+<button class="btn" type="submit">Send message</button>
+</form>
+</div>
+</div>
+</div></div>
+</main>
+<footer><div class="wrap"><span>© 2026 Auto4Sale. All rights reserved.</span><span>Prices and availability subject to change.</span></div></footer>
+<script src="app.js"></script>
+</body>
+</html>
